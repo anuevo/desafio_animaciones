@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Inclusión reseteo de CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Inclusión de .css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Animaciones</title>
+</head>
+
+<body>
+
+  <div class="grid-container">
+  
+    <div class="navbar">
+      <div class="hero">
+        <img src="assets/img/logo.png" alt="logo" />
+        <h1>Electronic devices</h1>
+      </div>
+      <nav>
+        <label id="hamburger" for="toggle"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="toggle" />
+        <div class="menu">
+          <a href="#">Inicio</a>
+          <a href="#">Catálogo</a>
+          <a href="#">Ofertas</a>
+          <a href="#">Contacto</a>
+        </div>
+      </nav>
+    </div> 
+
+    <div class="search">
+      Ordenar por:
+      <select name="filtro">
+        <option value="precio">Smartphones</option>
+        <option value="modelo">Smartwatches</option>
+        <option value="ano">Notebooks</option>
+      </select>
+    </div>
+
+    <div class="product">
+      <div class="product-1">
+        <div class="card">
+          <div class="card-wrap">
+            <img src="./assets/img/apple watch.jpg" width="100%" alt="reloj"/>
+            <div class="card-content">
+              <span>Type: Smartwatch</span>
+            </div>
+            <div class="card-footer">
+              <button class="card-btn">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-2">
+        <div class="card">
+          <div class="card-wrap">
+            <img src="./assets/img/auri1.jpg" width="100%" alt="auricular"/>
+            <div class="card-content">
+              <span>Type: Headphone</span>
+            </div>
+            <div class="card-footer">
+              <button class="card-btn">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-3">
+        <div class="card">
+          <div class="card-wrap">
+            <img src="./assets/img/auri2.jpg" width="100%" alt="auricular"/>
+            <div class="card-content">
+              <span>Type: Headphone</span>
+            </div>
+            <div class="card-footer">
+              <button class="card-btn">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-4">
+        <div class="card">
+          <div class="card-wrap">
+            <img src="./assets/img/garmin.jpg" width="100%" alt="reloj"/>
+            <div class="card-content">
+              <span>Type: Smartwatch</span>
+            </div>
+            <div class="card-footer">
+              <button class="card-btn">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-5">
+        <div class="card">
+          <div class="card-wrap">
+            <img src="./assets/img/iphone.jpg" width="100%" alt="telefono"/>
+            <div class="card-content">
+              <span>Type: Smartphone</span>
+            </div>
+            <div class="card-footer">
+              <button class="card-btn">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-6">
+        <div class="card">
+          <div class="card-wrap">
+            <img src="./assets/img/notebook.jpg" width="100%" alt="notebook"/>
+            <div class="card-content">
+              <span>Type: Notebook</span>
+            </div>
+            <div class="card-footer">
+              <button class="card-btn">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-7">
+        <div class="card">
+          <div class="card-wrap">
+            <img src="./assets/img/notebook2.jpg" width="100%" alt="notebook"/>
+            <div class="card-content">
+              <span>Type: Notebook</span>
+            </div>
+            <div class="card-footer">
+              <button class="card-btn">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-8">
+        <div class="card">
+          <div class="card-wrap">
+            <img src="./assets/img/s23.jpg" width="100%" alt="telefono"/>
+            <div class="card-content">
+              <span>Type: Smartphone</span>
+            </div>
+            <div class="card-footer">
+              <button class="card-btn">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-number">
+      <ul class="pagination">
+        <li><a href="#">«</a></li>
+        <li><a class="active" href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">»</a></li>
+      </ul>
+    </div>
+
+    <footer class="footer">
+      <a class="fa-brands fa-facebook fa" href=""></a>
+      <!-- <i class="fa-brands fa-facebook fa"></i> -->
+      <a class="fa-brands fa-instagram fa" href=""></a>
+      <!-- <i class="fa-brands fa-instagram fa"></i> -->
+      <p class="">Alejandro Nuevo &copy;2023.<br>Todos los derechos reservados.</p>
+    </footer>
+
+  </div>
+
+
+</body>
+
+</html>
